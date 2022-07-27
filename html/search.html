@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Продажа авто. Автосалон "Без лоха и жизнь плоха".</h1>
+    <h2>Поиск авто</h2>
+
+    <div>
+        <a href="../index.html">Главная</a>
+    </div>
+
+    <br>
+
+    <form action="url">
+        <fieldset>
+            <div>
+                <label for="type">Тип кузова</label>
+                <select name="type" id="type">
+                    <option value="sedan">Седан</option>
+                    <option value="coupe">Купе</option>
+                    <option value="hatchback">Хетчбек</option>
+                    <option value="universal">Универсал</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="marka">Марка авто</label>
+                <select name="marka" id="marka">
+                    <option value="kia">Киа</option>
+                    <option value="hyundai">Хюндаи</option>
+                    <option value="audi">Ауди</option>
+                    <option value="bmw">Бмв</option>
+
+                </select>
+            </div>
+
+            <div>
+                <label for="country">Страна производитель</label>
+                <select name="country" id="country">
+                    <option value="ukrine">Украина</option>
+                    <option value="japan">Япония</option>
+                    <option value="china">Китай</option>
+                    <option value="Germany">Германия</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="priceot">Цена от</label>
+                <input type="number" id="priceot" name="priceot">
+            </div>
+
+            <div>
+                <label for="pricedo">Цена до</label>
+                <input type="number" id="pricedo" name="pricedo">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="yearot">Год от</label>
+                <input type="number" id="yearot" name="yearot">
+            </div>
+
+            <div>
+                <label for="yeardo">Год до</label>
+                <input type="number" id="yeardo" name="yeardo">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Состояние</legend>
+            <div>
+                <label for="new">Новая</label>
+                <input type="checkbox" id="new">
+            </div>
+            <div>
+                <label for="notnew">Б.у.></label>
+                <input type="checkbox" id="notnew">
+            </div>
+            <div>
+                <label for="credit">Кредит</label>
+                <input type="checkbox" id="credit">
+            </div>
+            <div>
+                <label for="crash">Битая</label>
+                <input type="checkbox" id="crash">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Тип торлива</legend>
+            <div>
+                <label for="benz">Бензин</label>
+                <input type="checkbox" id="benz">
+            </div>
+            <div>
+                <label for="dizel">Дизель</label>
+                <input type="checkbox" id="dizel">
+            </div>
+            <div>
+                <label for="gaz">Газ</label>
+                <input type="checkbox" id="gaz">
+            </div>
+            <div>
+                <label for="electro">Электро</label>
+                <input type="checkbox" id="electro">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Тип коробки</legend>
+            <div>
+                <label for="mehan">Механика</label>
+                <input type="checkbox" id="mehan">
+            </div>
+
+            <div>
+                <label for="avtomat">Автомат</label>
+                <input type="checkbox" id="avtomat">
+            </div>
+
+            <div>
+                <label for="robot">Робот</label>
+                <input type="checkbox" id="robot">
+            </div>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Комфорт</legend>
+            <div>
+                <label for="condi">Кондиционер</label>
+                <input type="checkbox" id="condi">
+            </div>
+            <div>
+                <label for="luk">Люк</label>
+                <input type="checkbox" id="luk">
+            </div>
+            <div>
+                <label for="hotrul">Подогрев руля</label>
+                <input type="checkbox" id="hotrul">
+            </div>
+            <div>
+                <label for="signal">Сигнализация</label>
+                <input type="checkbox" id="signal">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="color">Цвет</label>
+                <select name="color" id="color">
+                    <option value="black">Черный</option>
+                    <option value="white">Белый</option>
+                    <option value="red">Красный</option>
+                    <option value="blue">Синий</option>
+                </select>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <button type="submit">Поиск</button>
+            <button type="reset">Сбросить</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
